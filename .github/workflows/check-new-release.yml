@@ -50,3 +50,7 @@ jobs:
         with:
           tag: ${{ env.latest_version }}
           message: "${{ env.latest_version }}"
+
+      #
+      # call-lint-and-build:
+      #   uses: vonage/vivid-3/.github/workflows/_lint-and-build.yml@main
